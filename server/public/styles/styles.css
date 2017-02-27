@@ -10,13 +10,16 @@
   background-color: #07AA9E;
   color: white;
   padding: 50px;
+  border-bottom: 1px solid black;
+  box-shadow: 0px 0px 8px 2px black;
 }
 
 .joke{
-  border: 1px solid black;
+  /*border: 1px solid black;*/
   padding: 20px;
   margin: 10px;
   border-radius: 5px;
+  box-shadow: 0px 0px 8px 2px #000000
 }
 
 #addJoke{
@@ -26,27 +29,38 @@
 
 #bookheader{
   color: #07AA9E;
+
 }
 
 button{
-  background-color: black;
-  color: white;
-  border: 1px solid white;
-  height: 40px;
-  width: 200px;
-}
-
-button:hover{
+  margin-top: 10px;
   background-color: white;
   color: black;
   border: 1px solid black;
   height: 40px;
-  width: 200px;
+  width: 500px;
+  box-shadow: 0 5px #000000;
+}
+
+button:hover{
+  background-color: #07AA9E;
+  color: white;
+  height: 40px;
+  width: 500px;
+}
+
+button:active{
+  background-color: #07AA9E;
+  color: white;
+  height: 40px;
+  width: 500px;
+  box-shadow: 0 5px #27496d;
+  transform: translateY(5px);
 }
 
 input{
   height: 40px;
-  width: 200px;
+  width: 500px;
 }
 
 .row{

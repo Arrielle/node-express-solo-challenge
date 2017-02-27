@@ -23,6 +23,7 @@ $(document).ready(function() {
       punchLine: newPunch
     };
     // post new joke to server on submit
+    if (newJoke !== '' && userName !== '' && punchLine !== ''){
     $.ajax({
       type: 'POST',
       url: '/newJokes',
@@ -33,6 +34,7 @@ $(document).ready(function() {
         appendingJokes(response);
       }//ends success
     });//end ajax post
+  }
   });//end button click
 
   function appendingJokes(response){
