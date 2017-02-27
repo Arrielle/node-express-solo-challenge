@@ -18,19 +18,22 @@
   <link rel="stylesheet" href="./styles/styles.css">
 </head>
 <body>
+
   <div id="header" class="page-header">
     <h1>Node Express Joke Book</h1>
   </div>
-  <div id="addJoke" class="container">
+  <div class = "row">
+    <div id="jokeBook" class="col-sm-6">
+      <h1 id="bookheader">THE JOKE BOOK SO FAR</h1>
+    </div>
+  <div id="addJoke" class="col-sm-6">
     <h1>Have a doozy of a joke to add?</h1>
     <input id="name" type="text" placeholder="Name" name="Name:" value="">
     <input id="joke" type="text" placeholder="Joke Question" name="Joke Question:" value="">
     <input id="punchLine" type="text" placeholder="Punch Line" name="Punch Line:" value="">
     <button type="button" name="button">Submit Joke</button>
   </div>
-  <div id="jokeBook" class="container">
-    <h1 id="bookheader">THE JOKE BOOK SO FAR</h1>
-  </div>
 
+</div>
 </body>
 </html>
