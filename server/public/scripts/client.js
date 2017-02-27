@@ -32,8 +32,12 @@ $(document).ready(function() {
         console.log('post response: ', response);
         $('#jokeBook').empty();
         appendingJokes(response);
+        $('#error').text('');
       }//ends success
     });//end ajax post
+  } else {
+    $('#error').text('');
+    $('#error').text('Please fill out the new joke form if you would like to add a new joke');
   }
   });//end button click
 
