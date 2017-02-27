@@ -1,1 +1,50 @@
 /* empty */
+
+#jokeBook{
+  /*display: inline-block;
+  margin: auto;*/
+  text-align: center;
+}
+
+.page-header {
+  background-color: #07AA9E;
+  color: white;
+  padding: 50px;
+}
+
+.joke{
+  border: 1px solid black;
+  padding: 20px;
+  margin: 10px;
+  border-radius: 5px;
+}
+
+#addJoke{
+  padding: 20px;
+  text-align: center;
+}
+
+#bookheader{
+  color: #07AA9E;
+}
+
+button{
+  background-color: black;
+  color: white;
+  border: 1px solid white;
+  height: 40px;
+  width: 200px;
+}
+
+button:hover{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  height: 40px;
+  width: 200px;
+}
+
+input{
+  height: 40px;
+  width: 200px;
+}
